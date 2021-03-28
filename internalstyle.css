@@ -51,8 +51,8 @@ nav a {
   text-decoration: none;
   transition: ease-in-out color 200ms;
   float: left;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   color: white;
 }
 
