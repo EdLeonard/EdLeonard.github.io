@@ -1,0 +1,197 @@
+/* making margin 0 for every element */
+* {
+  margin: 0;
+}
+
+/* body setup for formatting for website */
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  color: #0c0475;
+}
+/* making paragraph font colour black to contrast blue titles */
+p {
+  color: black;
+}
+/* header formatting, shadow, grid template, fixing position to scroll with page */
+header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+  display: inline-grid;
+  grid-template-columns: 15% 17% 5% 63%;
+  grid-template-rows: 100px;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.6);
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+h1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  font-size: 30px;
+  color: #0c0475;
+}
+/*  nav css, pseudo elements for the hover effect, basic formatting */
+nav {
+  position: relative;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  z-index: 100;
+}
+ul {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  transition: ease-in-out color 200ms;
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
+
+/* hover for nav to turn text gold */
+nav a:hover,
+nav a:focus {
+  color: #ceb05f;
+}
+
+/* to make the blue background split on header, really happy with how it turned out */
+.bluesquare {
+  background-color: blue;
+  left: 650px;
+  width: 720px;
+  height: 100px;
+  position: fixed;
+  z-index: -1;
+}
+
+.bluetriangle {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid transparent;
+  border-right: 100px solid blue;
+  border-bottom: 50px solid blue;
+  position: fixed;
+  left: 450px;
+  z-index: -1;
+}
+/*css to create the timeline, pretty messy code */
+.line {
+  height: 100%;
+  width: 30px;
+  left: 100px;
+  position: absolute;
+  background-color: #8a8a8a;
+  opacity: 60%;
+}
+
+.first-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 75px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.first-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 230px;
+  left: 200px;
+  height: 2px;
+  width: 400px;
+}
+
+.first-image {
+  display: block;
+  position: absolute;
+  top: 130px;
+  left: 620px;
+}
+.first-info {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  top: 120px;
+  left: 950px;
+  overflow: hidden;
+}
+
+.second-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 420px;
+  left: 70px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.second-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 450px;
+  left: 200px;
+  height: 2px;
+  width: 140px;
+}
+
+.second-image {
+  position: absolute;
+  top: 370px;
+  left: 350px;
+}
+
+.second-info {
+  position: absolute;
+  height: 200px;
+  width: 320px;
+  top: 360px;
+  left: 630px;
+  overflow: hidden;
+}
+.third-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 610px;
+  left: 70px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.third-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 645px;
+  left: 200px;
+  height: 2px;
+  width: 600px;
+}
+
+.third-image {
+  position: absolute;
+  top: 500px;
+  left: 800px;
+}
+.third-info {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  top: 500px;
+  left: 950px;
+  overflow: hidden;
+}
