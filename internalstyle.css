@@ -119,13 +119,25 @@ nav a:focus {
   top: 130px;
   left: 620px;
 }
+
 .first-info {
   position: absolute;
-  height: 200px;
+  height: 250px;
   width: 400px;
-  top: 120px;
-  left: 950px;
+  top: 140px;
+  left: 650px;
   overflow: hidden;
+}
+
+#first-button a {
+  background: none;
+  text-decoration: none;
+  color: #0c0475;
+  font-size: 16px;
+}
+
+#first-button {
+  border: none;
 }
 
 .second-date {
@@ -157,9 +169,9 @@ nav a:focus {
 .second-info {
   position: absolute;
   height: 200px;
-  width: 320px;
-  top: 360px;
-  left: 630px;
+  width: 400px;
+  top: 380px;
+  left: 380px;
   overflow: hidden;
 }
 .third-date {
@@ -191,7 +203,7 @@ nav a:focus {
   position: absolute;
   height: 200px;
   width: 400px;
-  top: 500px;
-  left: 950px;
+  top: 530px;
+  left: 880px;
   overflow: hidden;
 }
