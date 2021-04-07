@@ -1,3 +1,7 @@
+#container1 {
+  display: none;
+}
+
 /* making margin 0 for every element */
 * {
   margin: 0;
@@ -142,8 +146,19 @@ first-button:focus {
   color: #ceb05f;
 }
 
+#first-button-less a {
+  background: none;
+  text-decoration: none;
+  color: #0c0475;
+  font-size: 18px;
+  position: relative;
+  left: 300px;
+}
+
 #first-button-less {
-  display: none;
+  border: none;
+  padding: 0;
+  transition-duration: 200ms;
 }
 /*  1883 date on timeline */
 .second-date {
