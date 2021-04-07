@@ -123,7 +123,7 @@ nav a:focus {
 .first-info {
   position: absolute;
   height: 250px;
-  width: 400px;
+  width: 420px;
   top: 140px;
   left: 650px;
   overflow: hidden;
@@ -133,11 +133,18 @@ nav a:focus {
   background: none;
   text-decoration: none;
   color: #0c0475;
-  font-size: 16px;
+  font-size: 18px;
+  position: relative;
+  left: 300px;
 }
 
 #first-button {
   border: none;
+}
+
+#first-button:hover,
+first-button:focus {
+  color: #ceb05f;
 }
 
 .second-date {
