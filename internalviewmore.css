@@ -138,7 +138,7 @@ nav a:focus {
 #first-button-more {
   border: none;
   padding: 0;
-  transition-duration: 200ms;
+  display: none;
 }
 
 #first-button-more:hover,
@@ -159,6 +159,12 @@ first-button:focus {
   border: none;
   padding: 0;
   transition-duration: 200ms;
+  cursor: pointer;
+}
+
+#first-button-less:hover,
+#first-button-less:focus {
+  color: #ceb05f;
 }
 /*  1883 date on timeline */
 .second-date {

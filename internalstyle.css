@@ -6,12 +6,20 @@
 /* body setup for formatting for website */
 body {
   background-color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lexend", sans-serif;
   color: #0c0475;
 }
 /* making paragraph font colour black to contrast blue titles */
 p {
   color: black;
+  font-size: 20px;
+  letter-spacing: 0.15mm;
+  line-height: 6mm;
+  word-spacing: 1mm;
+}
+
+h2 {
+  padding-bottom: 20px;
 }
 /* header formatting, shadow, grid template, fixing position to scroll with page */
 header {
@@ -85,7 +93,7 @@ nav a:focus {
 }
 /*css to create the timeline, pretty messy code */
 .line {
-  height: 1000px;
+  height: 2000px;
   width: 30px;
   left: 100px;
   position: absolute;
@@ -116,8 +124,8 @@ nav a:focus {
 .first-info {
   position: absolute;
   height: 250px;
-  width: 420px;
-  top: 140px;
+  width: 500px;
+  top: 120px;
   left: 650px;
   overflow: hidden;
 }
@@ -135,6 +143,7 @@ nav a:focus {
   border: none;
   padding: 0;
   transition-duration: 200ms;
+  cursor: pointer;
 }
 
 #first-button-more:hover,
@@ -142,8 +151,25 @@ first-button:focus {
   color: #ceb05f;
 }
 
+#first-button-less a {
+  background: none;
+  text-decoration: none;
+  color: #0c0475;
+  font-size: 18px;
+  position: relative;
+  left: 300px;
+}
+
 #first-button-less {
+  border: none;
+  padding: 0;
   display: none;
+  transition-duration: 200ms;
+}
+
+#first-button-less:hover,
+first-button:focus {
+  color: #ceb05f;
 }
 /*  1883 date on timeline */
 .second-date {
@@ -169,7 +195,7 @@ first-button:focus {
 .second-info {
   position: absolute;
   height: 200px;
-  width: 400px;
+  width: 450px;
   top: 380px;
   left: 380px;
   overflow: hidden;
@@ -192,15 +218,15 @@ first-button:focus {
   top: 645px;
   left: 200px;
   height: 2px;
-  width: 600px;
+  width: 550px;
 }
 
 .third-info {
   position: absolute;
   height: 200px;
-  width: 400px;
+  width: 500px;
   top: 540px;
-  left: 860px;
+  left: 800px;
   overflow: hidden;
 }
 /* 1916 date on timeline */
@@ -226,7 +252,7 @@ first-button:focus {
 
 .fourth-info {
   position: absolute;
-  height: 200px;
+  height: 250px;
   width: 400px;
   top: 780px;
   left: 640px;
