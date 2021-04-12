@@ -13,9 +13,9 @@ body {
 p {
   color: black;
   font-size: 20px;
-  letter-spacing: 0.15mm;
-  line-height: 6mm;
-  word-spacing: 1mm;
+  letter-spacing: 0.1mm;
+  line-height: 5.5mm;
+  word-spacing: 0.8mm;
 }
 
 h2 {
@@ -129,54 +129,12 @@ nav a:focus {
   left: 650px;
   overflow: hidden;
 }
-
-#first-button-more a {
-  background: none;
-  text-decoration: none;
-  color: #0c0475;
-  font-size: 18px;
-  position: relative;
-  left: 300px;
-}
-
-#first-button-more {
-  border: none;
-  padding: 0;
-  transition-duration: 200ms;
-  cursor: pointer;
-}
-
-#first-button-more:hover,
-first-button:focus {
-  color: #ceb05f;
-}
-
-#first-button-less a {
-  background: none;
-  text-decoration: none;
-  color: #0c0475;
-  font-size: 18px;
-  position: relative;
-  left: 300px;
-}
-
-#first-button-less {
-  border: none;
-  padding: 0;
-  display: none;
-  transition-duration: 200ms;
-}
-
-#first-button-less:hover,
-first-button:focus {
-  color: #ceb05f;
-}
 /*  1883 date on timeline */
 .second-date {
   padding: 10px;
   background-color: white;
   position: absolute;
-  top: 420px;
+  top: 440px;
   left: 70px;
   color: #050046;
   font-size: 32px;
@@ -186,7 +144,7 @@ first-button:focus {
   background-color: #8a8a8a;
   opacity: 60%;
   position: absolute;
-  top: 450px;
+  top: 470px;
   left: 200px;
   height: 2px;
   width: 140px;
@@ -229,12 +187,58 @@ first-button:focus {
   left: 800px;
   overflow: hidden;
 }
+
+#viewmorep1 {
+  display: none;
+}
+
+#first-button-more a {
+  background: none;
+  text-decoration: none;
+  color: #0c0475;
+  font-size: 18px;
+  position: relative;
+  left: 300px;
+}
+
+#first-button-more {
+  border: none;
+  padding: 0;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+#first-button-more:hover,
+first-button:focus {
+  color: #ceb05f;
+}
+
+#first-button-less a {
+  background: none;
+  text-decoration: none;
+  color: #0c0475;
+  font-size: 18px;
+  position: relative;
+  left: 300px;
+}
+
+#first-button-less {
+  border: none;
+  padding: 0;
+  display: none;
+  transition-duration: 200ms;
+}
+
+#first-button-less:hover,
+first-button:focus {
+  color: #ceb05f;
+}
 /* 1916 date on timeline */
 .fourth-date {
   padding: 10px;
   background-color: white;
   position: absolute;
-  top: 800px;
+  top: 850px;
   left: 72px;
   color: #050046;
   font-size: 32px;
@@ -244,7 +248,7 @@ first-button:focus {
   background-color: #8a8a8a;
   opacity: 60%;
   position: absolute;
-  top: 833px;
+  top: 880px;
   left: 200px;
   height: 2px;
   width: 400px;
@@ -253,8 +257,66 @@ first-button:focus {
 .fourth-info {
   position: absolute;
   height: 250px;
-  width: 400px;
+  width: 450px;
   top: 780px;
   left: 640px;
+  overflow: hidden;
+}
+/*  1917 date on timeline */
+.fifth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1090px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.fifth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1120px;
+  left: 200px;
+  height: 2px;
+  width: 100px;
+}
+
+.fifth-info {
+  position: absolute;
+  height: 250px;
+  width: 400px;
+  top: 1040px;
+  left: 350px;
+  overflow: hidden;
+}
+/*  1926 date on timeline */
+.sixth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1300px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.sixth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1332px;
+  left: 200px;
+  height: 2px;
+  width: 300px;
+}
+
+.sixth-info {
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  top: 1250px;
+  left: 550px;
   overflow: hidden;
 }

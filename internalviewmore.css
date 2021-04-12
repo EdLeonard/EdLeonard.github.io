@@ -1,3 +1,4 @@
+/* to make container invisible */
 #container1 {
   display: none;
 }
@@ -10,12 +11,20 @@
 /* body setup for formatting for website */
 body {
   background-color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lexend", sans-serif;
   color: #0c0475;
 }
 /* making paragraph font colour black to contrast blue titles */
 p {
   color: black;
+  font-size: 20px;
+  letter-spacing: 0.1mm;
+  line-height: 5.5mm;
+  word-spacing: 0.8mm;
+}
+
+h2 {
+  padding-bottom: 20px;
 }
 /* header formatting, shadow, grid template, fixing position to scroll with page */
 header {
@@ -89,7 +98,7 @@ nav a:focus {
 }
 /*css to create the timeline, pretty messy code */
 .line {
-  height: 1000px;
+  height: 2000px;
   width: 30px;
   left: 100px;
   position: absolute;
@@ -120,10 +129,76 @@ nav a:focus {
 .first-info {
   position: absolute;
   height: 250px;
-  width: 420px;
-  top: 140px;
+  width: 500px;
+  top: 120px;
   left: 650px;
   overflow: hidden;
+}
+/*  1883 date on timeline */
+.second-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 440px;
+  left: 70px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.second-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 470px;
+  left: 200px;
+  height: 2px;
+  width: 140px;
+}
+
+.second-info {
+  position: absolute;
+  height: 200px;
+  width: 450px;
+  top: 380px;
+  left: 380px;
+  overflow: hidden;
+}
+/* 1912 date on timeline */
+.third-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 610px;
+  left: 70px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.third-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 645px;
+  left: 200px;
+  height: 2px;
+  width: 550px;
+}
+
+.third-info {
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  top: 540px;
+  left: 800px;
+  overflow: hidden;
+}
+
+#viewmorep1 {
+  display: block;
+}
+
+#viewlessp1 {
+  display: none;
 }
 
 #first-button-more a {
@@ -138,6 +213,8 @@ nav a:focus {
 #first-button-more {
   border: none;
   padding: 0;
+  transition-duration: 200ms;
+  cursor: pointer;
   display: none;
 }
 
@@ -163,73 +240,15 @@ first-button:focus {
 }
 
 #first-button-less:hover,
-#first-button-less:focus {
+first-button:focus {
   color: #ceb05f;
-}
-/*  1883 date on timeline */
-.second-date {
-  padding: 10px;
-  background-color: white;
-  position: absolute;
-  top: 420px;
-  left: 70px;
-  color: #050046;
-  font-size: 32px;
-}
-
-.second-line {
-  background-color: #8a8a8a;
-  opacity: 60%;
-  position: absolute;
-  top: 450px;
-  left: 200px;
-  height: 2px;
-  width: 140px;
-}
-
-.second-info {
-  position: absolute;
-  height: 200px;
-  width: 400px;
-  top: 380px;
-  left: 380px;
-  overflow: hidden;
-}
-/* 1912 date on timeline */
-.third-date {
-  padding: 10px;
-  background-color: white;
-  position: absolute;
-  top: 610px;
-  left: 70px;
-  color: #050046;
-  font-size: 32px;
-}
-
-.third-line {
-  background-color: #8a8a8a;
-  opacity: 60%;
-  position: absolute;
-  top: 645px;
-  left: 200px;
-  height: 2px;
-  width: 600px;
-}
-
-.third-info {
-  position: absolute;
-  height: 200px;
-  width: 400px;
-  top: 540px;
-  left: 860px;
-  overflow: hidden;
 }
 /* 1916 date on timeline */
 .fourth-date {
   padding: 10px;
   background-color: white;
   position: absolute;
-  top: 800px;
+  top: 850px;
   left: 72px;
   color: #050046;
   font-size: 32px;
@@ -239,7 +258,7 @@ first-button:focus {
   background-color: #8a8a8a;
   opacity: 60%;
   position: absolute;
-  top: 833px;
+  top: 880px;
   left: 200px;
   height: 2px;
   width: 400px;
@@ -247,9 +266,67 @@ first-button:focus {
 
 .fourth-info {
   position: absolute;
-  height: 200px;
-  width: 400px;
+  height: 250px;
+  width: 450px;
   top: 780px;
   left: 640px;
+  overflow: hidden;
+}
+/*  1917 date on timeline */
+.fifth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1090px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.fifth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1120px;
+  left: 200px;
+  height: 2px;
+  width: 100px;
+}
+
+.fifth-info {
+  position: absolute;
+  height: 250px;
+  width: 400px;
+  top: 1040px;
+  left: 350px;
+  overflow: hidden;
+}
+/*  1926 date on timeline */
+.sixth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1300px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.sixth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1332px;
+  left: 200px;
+  height: 2px;
+  width: 300px;
+}
+
+.sixth-info {
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  top: 1250px;
+  left: 550px;
   overflow: hidden;
 }
