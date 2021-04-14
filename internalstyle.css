@@ -93,7 +93,7 @@ nav a:focus {
 }
 /*css to create the timeline, pretty messy code */
 .line {
-  height: 2000px;
+  height: 3000px;
   width: 30px;
   left: 100px;
   position: absolute;
@@ -181,7 +181,7 @@ nav a:focus {
 
 .third-info {
   position: absolute;
-  height: 200px;
+  height: 250px;
   width: 500px;
   top: 540px;
   left: 800px;
@@ -195,17 +195,17 @@ nav a:focus {
 #first-button-more a {
   background: none;
   text-decoration: none;
-  color: #0c0475;
-  font-size: 18px;
   position: relative;
-  left: 300px;
 }
 
 #first-button-more {
   border: none;
-  padding: 0;
+  padding-top: 10px;
   transition-duration: 200ms;
   cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  color: #0c0475;
 }
 
 #first-button-more:hover,
@@ -213,25 +213,8 @@ first-button:focus {
   color: #ceb05f;
 }
 
-#first-button-less a {
-  background: none;
-  text-decoration: none;
-  color: #0c0475;
-  font-size: 18px;
-  position: relative;
-  left: 300px;
-}
-
 #first-button-less {
-  border: none;
-  padding: 0;
   display: none;
-  transition-duration: 200ms;
-}
-
-#first-button-less:hover,
-first-button:focus {
-  color: #ceb05f;
 }
 /* 1916 date on timeline */
 .fourth-date {
@@ -318,5 +301,150 @@ first-button:focus {
   width: 450px;
   top: 1250px;
   left: 550px;
+  overflow: hidden;
+}
+/*  1939 date on timeline */
+.seventh-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1520px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.seventh-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1550px;
+  left: 200px;
+  height: 2px;
+  width: 650px;
+}
+
+.seventh-info {
+  position: absolute;
+  height: 250px;
+  width: 400px;
+  top: 1480px;
+  left: 900px;
+  overflow: hidden;
+}
+/*  1997 date on timeline */
+.eigth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1720px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.eigth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1750px;
+  left: 200px;
+  height: 2px;
+  width: 400px;
+}
+
+.eigth-info {
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  top: 1660px;
+  left: 650px;
+  overflow: hidden;
+}
+/*  2005 date on timeline */
+.ninth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1900px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.ninth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1930px;
+  left: 200px;
+  height: 2px;
+  width: 550px;
+}
+
+.ninth-info {
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  top: 1860px;
+  left: 800px;
+  overflow: hidden;
+}
+/*  2015 date on timeline */
+.tenth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 2000px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.tenth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1900px;
+  left: 200px;
+  height: 2px;
+  width: 200px;
+}
+
+.tenth-info {
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  top: 1800px;
+  left: 300px;
+  overflow: hidden;
+}
+/*  2021date on timeline */
+.eleventh-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1720px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.eleventh-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1750px;
+  left: 200px;
+  height: 2px;
+  width: 400px;
+}
+
+.eleventh-info {
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  top: 1660px;
+  left: 650px;
   overflow: hidden;
 }

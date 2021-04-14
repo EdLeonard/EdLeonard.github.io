@@ -6,6 +6,7 @@
 /* making margin 0 for every element */
 * {
   margin: 0;
+  transition-duration: 750ms;
 }
 
 /* body setup for formatting for website */
@@ -186,7 +187,7 @@ nav a:focus {
 
 .third-info {
   position: absolute;
-  height: 300px;
+  height: 400px;
   width: 500px;
   top: 540px;
   left: 800px;
@@ -201,42 +202,23 @@ nav a:focus {
   display: none;
 }
 
-#first-button-more a {
-  background: none;
-  text-decoration: none;
-  color: #0c0475;
-  font-size: 18px;
-  position: relative;
-  left: 300px;
-}
-
 #first-button-more {
-  border: none;
-  padding: 0;
-  transition-duration: 200ms;
-  cursor: pointer;
   display: none;
-}
-
-#first-button-more:hover,
-first-button:focus {
-  color: #ceb05f;
 }
 
 #first-button-less a {
   background: none;
   text-decoration: none;
-  color: #0c0475;
-  font-size: 18px;
   position: relative;
-  left: 300px;
 }
 
 #first-button-less {
   border: none;
-  padding: 0;
+  padding-top: 10px;
   transition-duration: 200ms;
   cursor: pointer;
+  color: #0c0475;
+  font-size: 20px;
 }
 
 #first-button-less:hover,
