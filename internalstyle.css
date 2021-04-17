@@ -41,7 +41,7 @@ h1 {
   grid-column-start: 2;
   grid-column-end: 3;
   font-size: 30px;
-  color: #0c0475;
+  color: white;
 }
 /*  nav css, pseudo elements for the hover effect, basic formatting */
 nav {
@@ -61,7 +61,7 @@ nav a {
   float: left;
   padding-left: 50px;
   padding-right: 50px;
-  color: white;
+  color: #0c0475;
 }
 
 /* hover for nav to turn text gold */
@@ -73,8 +73,8 @@ nav a:focus {
 /* to make the blue background split on header, really happy with how it turned out */
 .bluesquare {
   background-color: blue;
-  left: 650px;
-  width: 720px;
+  left: 0px;
+  width: 450px;
   height: 100px;
   position: fixed;
   z-index: -1;
@@ -83,17 +83,17 @@ nav a:focus {
 .bluetriangle {
   width: 0;
   height: 0;
-  border-top: 50px solid transparent;
-  border-left: 100px solid transparent;
-  border-right: 100px solid blue;
-  border-bottom: 50px solid blue;
+  border-bottom: 50px solid transparent;
+  border-right: 100px solid transparent;
+  border-left: 100px solid blue;
+  border-top: 50px solid blue;
   position: fixed;
   left: 450px;
   z-index: -1;
 }
 /*css to create the timeline, pretty messy code */
 .line {
-  height: 3000px;
+  height: 2800px;
   width: 30px;
   left: 100px;
   position: absolute;
@@ -211,6 +211,16 @@ nav a:focus {
 #first-button-more:hover,
 first-button:focus {
   color: #ceb05f;
+}
+
+#first-button-more:visited {
+  border: none;
+  padding-top: 10px;
+  transition-duration: 200ms;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  color: #0c0475;
 }
 
 #first-button-less {
@@ -390,12 +400,12 @@ first-button:focus {
   left: 800px;
   overflow: hidden;
 }
-/*  2015 date on timeline */
+/* 2015 on timeline */
 .tenth-date {
   padding: 10px;
   background-color: white;
   position: absolute;
-  top: 2000px;
+  top: 2100px;
   left: 72px;
   color: #050046;
   font-size: 32px;
@@ -405,26 +415,26 @@ first-button:focus {
   background-color: #8a8a8a;
   opacity: 60%;
   position: absolute;
-  top: 1900px;
+  top: 2130px;
   left: 200px;
   height: 2px;
-  width: 200px;
+  width: 400px;
 }
 
 .tenth-info {
   position: absolute;
   height: 250px;
-  width: 450px;
-  top: 1800px;
-  left: 300px;
+  width: 500px;
+  top: 2050px;
+  left: 650px;
   overflow: hidden;
 }
-/*  2021date on timeline */
+/* 2021 on timeline */
 .eleventh-date {
   padding: 10px;
   background-color: white;
   position: absolute;
-  top: 1720px;
+  top: 2370px;
   left: 72px;
   color: #050046;
   font-size: 32px;
@@ -434,17 +444,17 @@ first-button:focus {
   background-color: #8a8a8a;
   opacity: 60%;
   position: absolute;
-  top: 1750px;
+  top: 2400px;
   left: 200px;
   height: 2px;
-  width: 400px;
+  width: 100px;
 }
 
 .eleventh-info {
   position: absolute;
   height: 250px;
-  width: 450px;
-  top: 1660px;
-  left: 650px;
+  width: 500px;
+  top: 2300px;
+  left: 360px;
   overflow: hidden;
 }
