@@ -2,13 +2,11 @@
 #container1 {
   display: none;
 }
-
 /* making margin 0 for every element */
 * {
   margin: 0;
   transition-duration: 1000ms;
 }
-
 /* body setup for formatting for website */
 body {
   background-color: white;
@@ -47,7 +45,7 @@ h1 {
   grid-column-start: 2;
   grid-column-end: 3;
   font-size: 30px;
-  color: #0c0475;
+  color: white;
 }
 /*  nav css, pseudo elements for the hover effect, basic formatting */
 nav {
@@ -67,7 +65,7 @@ nav a {
   float: left;
   padding-left: 50px;
   padding-right: 50px;
-  color: white;
+  color: #0c0475;
 }
 
 /* hover for nav to turn text gold */
@@ -79,8 +77,8 @@ nav a:focus {
 /* to make the blue background split on header, really happy with how it turned out */
 .bluesquare {
   background-color: blue;
-  left: 650px;
-  width: 720px;
+  left: 0px;
+  width: 450px;
   height: 100px;
   position: fixed;
   z-index: -1;
@@ -89,10 +87,10 @@ nav a:focus {
 .bluetriangle {
   width: 0;
   height: 0;
-  border-top: 50px solid transparent;
-  border-left: 100px solid transparent;
-  border-right: 100px solid blue;
-  border-bottom: 50px solid blue;
+  border-bottom: 50px solid transparent;
+  border-right: 100px solid transparent;
+  border-left: 100px solid blue;
+  border-top: 50px solid blue;
   position: fixed;
   left: 450px;
   z-index: -1;
