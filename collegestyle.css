@@ -77,19 +77,38 @@ body {
   background-color: white;
   font-family: "Lexend", sans-serif;
   color: #0c0475;
+  font-size: 1.2rem;
+  line-height: 8mm;
+  letter-spacing: 0.1mm;
 }
 .image1 {
 }
 
 .text1 {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  tranform: translate(-50%, -50%);
+  top: 15%;
+  left: 5%;
+  width: 45%;
+}
+
+.text1 h1 {
+  color: #0c0475;
+  position: relative;
+  line-height: 15mm;
 }
 
 .image2 {
 }
 
 .text2 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 45%;
+}
+
+.text2 h1 {
+  color: #0c0475;
+  position: relative;
+  line-height: 15mm;
 }

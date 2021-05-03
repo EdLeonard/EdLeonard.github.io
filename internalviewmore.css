@@ -5,8 +5,8 @@
 /* making margin 0 for every element */
 * {
   margin: 0;
-  transition-duration: 1000ms;
 }
+
 /* body setup for formatting for website */
 body {
   background-color: white;
@@ -34,7 +34,7 @@ header {
   z-index: 100;
   background-color: white;
   display: inline-grid;
-  grid-template-columns: 10% 17% 10% 63%;
+  grid-template-columns: 5% 25% 15% 60%;
   grid-template-rows: 100px;
   box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.6);
   align-items: center;
@@ -97,7 +97,7 @@ nav a:focus {
 }
 /*css to create the timeline, pretty messy code */
 .line {
-  height: 2000px;
+  height: 2800px;
   width: 30px;
   left: 100px;
   position: absolute;

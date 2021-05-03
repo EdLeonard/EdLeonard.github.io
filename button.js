@@ -11,5 +11,5 @@ function viewmore1() {
 function viewless1() {
   var style2 = document.getElementById("first-button-less");
 
-  style2.onclick = swapStyleSheet("internalstyle.css");
+  style2.onclick = swapStyleSheet("indexstyle.css");
 }
