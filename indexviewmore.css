@@ -127,7 +127,7 @@ nav a:focus {
 
 .third-info {
   position: absolute;
-  height: 400px;
+  height: 600px;
   width: 500px;
   top: 540px;
   left: 800px;
@@ -150,9 +150,11 @@ nav a:focus {
   background: none;
   text-decoration: none;
   position: relative;
+  display: block;
 }
 
 #first-button-less {
+  display: block;
   border: none;
   padding-top: 10px;
   transition-duration: 200ms;
@@ -164,4 +166,237 @@ nav a:focus {
 #first-button-less:hover,
 first-button:focus {
   color: #ceb05f;
+}
+
+/* 1916 date on timeline */
+.fourth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 850px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.fourth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 880px;
+  left: 200px;
+  height: 2px;
+  width: 400px;
+}
+
+.fourth-info {
+  position: absolute;
+  height: 250px;
+  width: 550px;
+  top: 780px;
+  left: 640px;
+  overflow: hidden;
+}
+/*  1917 date on timeline */
+.fifth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1090px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.fifth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1120px;
+  left: 200px;
+  height: 2px;
+  width: 100px;
+}
+
+.fifth-info {
+  position: absolute;
+  height: 250px;
+  width: 400px;
+  top: 1040px;
+  left: 350px;
+  overflow: hidden;
+}
+/*  1926 date on timeline */
+.sixth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1300px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.sixth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1332px;
+  left: 200px;
+  height: 2px;
+  width: 300px;
+}
+
+.sixth-info {
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  top: 1250px;
+  left: 550px;
+  overflow: hidden;
+}
+/*  1939 date on timeline */
+.seventh-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1520px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.seventh-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1550px;
+  left: 200px;
+  height: 2px;
+  width: 650px;
+}
+
+.seventh-info {
+  position: absolute;
+  height: 250px;
+  width: 400px;
+  top: 1480px;
+  left: 900px;
+  overflow: hidden;
+}
+/*  1997 date on timeline */
+.eigth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1720px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.eigth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1750px;
+  left: 200px;
+  height: 2px;
+  width: 400px;
+}
+
+.eigth-info {
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  top: 1660px;
+  left: 650px;
+  overflow: hidden;
+}
+/*  2005 date on timeline */
+.ninth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 1900px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.ninth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 1930px;
+  left: 200px;
+  height: 2px;
+  width: 550px;
+}
+
+.ninth-info {
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  top: 1860px;
+  left: 800px;
+  overflow: hidden;
+}
+/* 2015 on timeline */
+.tenth-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 2100px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.tenth-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 2130px;
+  left: 200px;
+  height: 2px;
+  width: 400px;
+}
+
+.tenth-info {
+  position: absolute;
+  height: 250px;
+  width: 500px;
+  top: 2050px;
+  left: 650px;
+  overflow: hidden;
+}
+/* 2021 on timeline */
+.eleventh-date {
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  top: 2370px;
+  left: 72px;
+  color: #050046;
+  font-size: 32px;
+}
+
+.eleventh-line {
+  background-color: #8a8a8a;
+  opacity: 60%;
+  position: absolute;
+  top: 2400px;
+  left: 200px;
+  height: 2px;
+  width: 100px;
+}
+
+.eleventh-info {
+  position: absolute;
+  height: 250px;
+  width: 500px;
+  top: 2300px;
+  left: 360px;
+  overflow: hidden;
 }
