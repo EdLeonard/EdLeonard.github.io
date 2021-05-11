@@ -1,4 +1,7 @@
 .image1 {
+  position: absolute;
+  left: 60%;
+  top: 15%;
 }
 
 .text1 {

@@ -1,4 +1,7 @@
 .image1 {
+  position: absolute;
+  left: 60%;
+  top: 15%;
 }
 
 .text1 {
@@ -20,12 +23,18 @@
 .text2 {
   position: absolute;
   top: 55%;
-  left: 50%;
-  width: 45%;
+  width: 70%;
+  margin-left: 225px;
+  line-height: 1cm;
 }
 
 .text2 h1 {
   color: #0c0475;
   position: relative;
   line-height: 15mm;
+}
+
+.text2 ul {
+  text-decoration-style: solid;
+  font-size: 20px;
 }

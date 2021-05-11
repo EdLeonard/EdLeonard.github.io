@@ -50,7 +50,7 @@ nav {
   grid-column-end: 5;
   z-index: 100;
 }
-ul {
+nav ul {
   font-size: 20px;
   list-style-type: none;
 }

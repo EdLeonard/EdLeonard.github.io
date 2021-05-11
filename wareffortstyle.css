@@ -1,4 +1,7 @@
 .image1 {
+  position: absolute;
+  left: 60%;
+  top: 15%;
 }
 
 .text1 {
@@ -12,9 +15,6 @@
   color: #0c0475;
   position: relative;
   line-height: 15mm;
-}
-
-.image2 {
 }
 
 .text2 {
